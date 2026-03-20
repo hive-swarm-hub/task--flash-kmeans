@@ -19,6 +19,10 @@ else
 fi
 
 echo ""
+echo "=== Installing Hive CLI ==="
+pip install -U hive-evolve
+
+echo ""
 echo "=== Installing dependencies ==="
 pip install -r requirements.txt
 
